@@ -1,0 +1,378 @@
+@import url("https://fonts.googleapis.com/css2?family=Spline+Sans+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
+a{
+  text-decoration: none;
+}
+.section-nav {
+  width: 100%;
+  padding-top: 5px;
+  position: sticky;
+  display: flex;
+  background-color: #5d3ebc;
+  color: white;
+  overflow: hidden !important;
+}
+.section-nav .navList {
+  margin-left: 85px;
+  font-family: "Varela Round", sans-serif;
+  z-index: 1;
+  width: 40%;
+  overflow: hidden;
+}
+.section-nav .navList ul {
+  border: none;
+}
+.navList a {
+  color: #d0d3d4;
+  font-weight: bold;
+  border: none !important;
+}
+.navList a:hover {
+  background-color: (137, 43, 226, 0.321);
+  color: aliceblue;
+  background-color: #7849f7;
+}
+.customerLogin {
+  width: 45%;
+  display: flex;
+  justify-content: end;
+}
+.customerLogin ul li a {
+  color: #d0d3d4;
+  font-family: "Varela Round", sans-serif;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customerLogin ul li a:hover {
+  color: #d0d3d4;
+}
+/* slider content start */
+.carouselSlide {
+  width: 100%;
+  max-height: 75vh;
+  overflow: hidden;
+}
+.carouselSlide img {
+  object-fit: cover;
+  background-image: #5d5d5d;
+}
+.carouselSlide .casouselBackGround {
+  background-image: linear-gradient(to left, transparent 0%, #5d3ebce7 100%);
+  position: absolute;
+  width: 100%;
+  margin-top: 0vh;
+  z-index: 5;
+  height: 75vh;
+}
+.sliderLogo {
+  z-index: 6;
+  margin-top: -105vh;
+  margin-left: 140px;
+  position: absolute !important;
+}
+.title h1 {
+  z-index: 6;
+  margin-top: -75vh;
+  width: 25%;
+  margin-left: 140px;
+  position: absolute;
+  color: #d0d3d4;
+  font-size: 35px !important;
+}
+.loginBox {
+  z-index: 6;
+  margin-top: -90vh;
+  height: 27vh;
+  width: 28%;
+  margin-left: 130vh;
+  position: absolute;
+  border-radius: 5px;
+  display: block;
+  color: #5d3ebc;
+  background-color: white;
+  text-align: center;
+  font-size: 18px !important;
+}
+
+.loginBox h6 {
+  padding: 10px;
+}
+.inputbox select {
+  height: 100%;
+  padding: 10px;
+  margin-left: 0px;
+  border: 1px solid gainsboro;
+}
+.inputbox input {
+  padding: 12px 5px;
+  margin-left: 10px;
+  width: 73%;
+  border: 1px solid gainsboro;
+  font-size: medium;
+}
+.inputbox button {
+  width: 90%;
+  border: 1px solid gainsboro;
+  background-color: #ffd300;
+  border-radius: 5px;
+  color: #7849f7;
+  padding: 8px 4px;
+  margin-top: 10px;
+  font-family: "Varela Round", sans-serif;
+  font-size: medium;
+}
+/* category content start */
+.categoryContent{
+  margin-top: 40px;
+  height: 200px;
+  margin-bottom: 40px;
+}
+.categoryContent .row {
+ display: flex;
+}
+.categoryContent .row .categorbox{
+  display: flex;
+}
+.categoryContent .row .col-12 .card{
+  float: left;
+  padding: 4px;
+  width: 7.5rem;
+  margin-left: 9px;
+  border-radius: 2px;
+  border: none;
+  height: 100px;
+
+}
+.categoryContent .row .col-12 .card .col-12{
+  text-align: center;
+}
+.categoryContent .row .col-12 .card:hover{
+ background-color:gainsboro;
+}
+.categoryContent .row .col-12 .card img{
+ border: 1px solid gainsboro;
+ border-radius: 5px;
+ width: 45%;
+}
+.categoryContent .row .col-12 .card .card-body {
+
+  padding: 0%;
+  padding-top: 5px;
+  font-family: "Varela Round", sans-serif;
+  color: #5d5d5d !important;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+}
+/* campanycontent start */
+.campanycontent {
+  width: 100%;
+  padding: 15px;
+  text-align: center;
+}
+.row .col-12 h5 {
+  text-align: left;
+  font-family: "Varela Round", sans-serif;
+  color: #5d5d5d;
+}
+.campanycontent .row {
+  padding-left: 20px;
+}
+.campanycontent .row .card {
+  margin-left: 15px;
+  border: none;
+  float: left;
+}
+.card img {
+  object-fit: cover;
+}
+/* favcontent start */
+.favcontent {
+  margin-top: 40px;
+  padding-bottom: 50px;
+
+  text-align: center;
+}
+.favcontent .row article {
+  display: flex;
+}
+.favcontent .row article .col-1 {
+  width: 10rem;
+  border: none;
+  cursor: pointer;
+}
+.favcontent .row article .col-1 .count {
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 10px;
+  font-size: large;
+  border: 1px solid gainsboro;
+  padding: 3px 9px 4px 9px;
+  color: #5d3ebc;
+  font-weight: bold;
+  box-shadow: 0px 5px 10px gainsboro;
+  border-radius: 5px;
+  background-color: white;
+}
+.favcontent .row article .card img {
+  max-height: 120px;
+  object-fit: contain;
+}
+
+.favcontent .row article .card .card-body {
+  padding: 0% 10px;
+}
+.favcontent .row article .card .card-body .card-text {
+  margin-bottom: 0%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.favcontent .row article .card .card-body .text {
+  color: #5d3ebc;
+}
+.favcontent .row article .card .card-body .text1 {
+  color: #5d5d5d;
+}
+
+/* mobilecontent start */
+.mobilecontent {
+  margin-bottom: 40px;
+}
+
+.mobilecontent img {
+  width: 100%;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 10px;
+}
+/* featurecontent start */
+.feature-content {
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+.feature-content .row .col-12 {
+  display: flex;
+}
+.feature-content .row .col-12 .card {
+  text-align: center !important;
+  padding: 60px 0px 40px 0px;
+  width: 25rem;
+  border: 0.5px solid rgba(220, 220, 220, 0.477);
+  margin-left: 20px;
+  box-shadow: 1px 3px 10px gainsboro;
+}
+.feature-content .row .col-12 .col-4 .col-12 {
+  display: flex;
+  justify-content: center;
+}
+.feature-content .row .col-12 .col-4 img {
+  width: 35%;
+}
+.feature-content .row .col-12 .col-4 .card-text {
+  color: #5d5d5d;
+}
+.feature-content .row .col-12 .col-4 .text {
+  margin-bottom: 0%;
+  font-family: "Varela Round", sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: #5d3ebc;
+}
+/* footer start */
+footer {
+  margin-top: 100px;
+}
+footer .container {
+  height: 30px;
+}
+footer .container .row {
+  display: flex;
+  justify-content: center;
+}
+
+footer .container .row .col-2 {
+  height: 250px;
+  width: 16rem;
+}
+footer .container .row .col-2 .col-12 .title h5 {
+  color: #5d3ebc;
+}
+footer .container .row .col-2 .footerlink {
+  margin-top: 20px;
+}
+footer .container .row .col-2 .footerlink p button {
+  display: flex;
+  max-height: 55px;
+  background: rgba(0, 0, 0, 0.95);
+  border: none;
+  max-width: 75%;
+}
+footer .container .row .col-2 .footerlink p button svg {
+  font-size: large;
+}
+footer .container .row .col-2 .footerlink p button h5 {
+  color: white;
+  font-size: large;
+  padding-left: 5px;
+}
+.navlink-list {
+  padding: 0% !important;
+  width: 100%;
+  margin-top: -10px;
+  border: none;
+}
+.navlink-list .card-body .list-group {
+  width: 100%;
+  border: none;
+  margin-left: -25px;
+  border-radius: 0%;
+}
+.list-group-item {
+  border: none;
+  float: left;
+  padding-top: 0%;
+  width: 35vh;
+}
+.list-group-item a {
+  font-size: 16px;
+  width: 100%;
+  color: black;
+  text-decoration: none;
+}
+
+.app img {
+  width:45%;
+  margin-left: 80px;
+  margin-top: 50px;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  border-radius: 5px;
+}
+.articleContent{
+  width: 100%;
+  margin-top: 250px;
+  padding: 0%;
+}
+
+.list-SosialMedia{
+  margin-left: -40px;
+  display: flex;
+  justify-content: right;
+}
+.list-SosialMedia svg{
+  margin-left: 15px;
+  margin-top: 5px;
+}
+.list-SosialMedia .svg-translete{
+  width: 115px;
+  margin-left: 10px;
+  height: 30px;
+  display: flex;
+  color: #5d5d5d;
+  border-radius: 5px;
+  justify-content: center;
+  border: 1px solid gainsboro;}
